@@ -21,7 +21,7 @@ import qrcode as qrlib
 #  CONFIG
 # ══════════════════════════════════════════
 BOT_TOKEN     = os.getenv("BOT_TOKEN", "")
-COMMUNITY_TAG = os.getenv("COMMUNITY_TAG", "HaluexeBot")
+COMMUNITY_TAG = os.getenv("COMMUNITY_TAG", "Haluexebot")
 TELEGRAM_URL  = os.getenv("TELEGRAM_URL", "https://t.me/HalucigeniaLtd")
 CG_BASE       = "https://api.coingecko.com/api/v3"
 BINANCE_BASE  = "https://api.binance.com/api/v3"
