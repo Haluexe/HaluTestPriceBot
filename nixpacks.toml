@@ -1,2 +1,7 @@
 [phases.setup]
-aptPkgs = ["fonts-dejavu-core", "fonts-liberation"]
+nixPkgs = ["python311", "ttf-dejavu", "libjpeg", "zlib", "freetype"]
+
+[phases.build]
+cmds = [
+    "pip install --no-cache-dir -r requirements.txt"
+]
